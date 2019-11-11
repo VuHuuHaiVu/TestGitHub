@@ -7,8 +7,10 @@ public class RotateImage extends JPanel {
 	//Image Object
 	protected Image image;
 	protected double angle;
+	//ádfadsfasdf
 	public RotateImage(Image image,double d) {
 		this.image = image;
+		this.angle = d;
 		this.angle = d;
 	}
 	
@@ -19,3 +21,4 @@ public class RotateImage extends JPanel {
 		g2d.drawImage(image,0,0,64,64,this);
 	}
 }
+	
